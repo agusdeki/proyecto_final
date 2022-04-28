@@ -150,15 +150,12 @@ main>div{
     margin: 15px;
 }
 footer{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
+    margin: 0px;
+    padding: 5px;
+    background-color: gray;
 }
-footer>p{
-    margin: 15px;
-    padding: 0px;
+footer h1{
     text-align: center;
-    color: white;
+    justify-content: center;
+    display: flex;
 }
