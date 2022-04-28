@@ -152,10 +152,13 @@ main>div{
 footer{
     margin: 0px;
     padding: 5px;
-    background-color: gray;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 35%, rgba(0,212,255,1) 100%);
+
 }
 footer h1{
     text-align: center;
     justify-content: center;
     display: flex;
+    color: white;
 }
