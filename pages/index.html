@@ -187,15 +187,23 @@
     <section id="contacto">
         <h1>Contacto</h1>
         <form>
-            <!-- <div class="input-group mb-3">
+            <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div> -->
-            <input type="text" placeholder="Nombre"/>
-            <input type="text" placeholder="Asunto"/>
-            <input type="text" placeholder="Email"/>
-            <input type="text" placeholder="Mensaje"/>
-            <input type="submit" value="Enviar"/>
+                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Nombre" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Asunto</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Asunto" aria-describedby="inputGroup-sizing-default">
+              </div>
+            <div class="mb-3 input-group">
+                <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                <input type="email" class="form-control" aria-label="Sizing example input" placeholder="name@example.com" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group mb-5">
+                <span class="input-group-text">Mensaje</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mb-5">Enviar</button>
         </form>
     </section>
     <footer>
